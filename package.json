@@ -1,4 +1,5 @@
 {
+  "homepage": "https://eerblko.github.io/studios-eerblko",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +23,6 @@
     "redux": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://eerblko.github.io/studios-eerblko",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
