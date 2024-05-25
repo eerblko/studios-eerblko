@@ -1,0 +1,52 @@
+/* Tools.css */
+
+/* Estilos para el contenedor principal */
+.tools-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el párrafo dentro del contenedor de herramientas */
+.tools-container p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify; /* Justifica el texto */
+}
+
+/* Estilos para el contenedor de la cuadrícula */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px; /* Añade espacio encima del contenedor */
+}
+
+/* Estilos para los elementos de la cuadrícula */
+.grid-item {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para los títulos */
+.grid-item h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Estilos para las imágenes */
+.grid-item img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+

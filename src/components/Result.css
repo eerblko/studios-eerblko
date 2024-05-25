@@ -1,0 +1,39 @@
+/* Estilos específicos para Result.js */
+
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .result-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+  }
+  
+  .document-card2 {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    margin-bottom: 15px;
+  }
+  
+  .section-content {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify; /* Justifica el texto */
+  }
+  
+  .result-image {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }  

@@ -1,0 +1,258 @@
+/* App.css */
+
+/* Variables CSS para facilitar cambios de estilo */
+:root {
+  --primary-color: #000080;
+  --primary-color-dark: #000080;
+  --primary-color-darker: #000080;
+  --text-color: #333;
+  --header-bg-color: #1c1c1c;
+  --header-text-color: white;
+  --hover-bg-color: #f2f2f2;
+  --button-bg-color: var(--header-bg-color);
+  --button-text-color: white;
+  --button-hover-bg-color: var(--primary-color-dark);
+  --button-active-bg-color: var(--primary-color-darker);
+  --border-color: #ddd;
+  --column-separator-color: #e0e0e0; /* Color de la línea separadora entre columnas */
+}
+
+/* General styles for tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 8px;
+  border: 1px solid var(--border-color);
+  text-align: left;
+}
+
+th {
+  background-color: var(--header-bg-color); /* Background color for header */
+  color: var(--header-text-color); /* Text color for header */
+}
+
+tr:hover {
+  background-color: var(--hover-bg-color); /* Lighter background on row hover */
+}
+
+/* Responsive table container */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+/* Pagination buttons */
+.pagination-buttons {
+  text-align: center; /* Center the content horizontally */
+}
+
+.pagination-buttons button {
+  background-color: var(--button-bg-color);
+  border: 1px solid var(--button-bg-color); /* Border matching the background color */
+  color: var(--button-text-color);
+  padding: 5px 10px; /* Adjusted padding for better spacing */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.pagination-buttons button:hover {
+  background-color: var(--button-hover-bg-color); /* Darker background on hover */
+}
+
+.pagination-buttons span {
+  font-size: 16px;
+  color: var(--text-color); /* Text color */
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+  justify-content: center; /* Center buttons horizontally */
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  margin: 5px; /* Space between buttons */
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: var(--button-hover-bg-color); /* Darker background on hover */
+}
+
+.button-container button:active {
+  background-color: var(--button-active-bg-color); /* Even darker background when active */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .button-container {
+    flex-direction: column; /* Change container direction to column */
+    align-items: center; /* Center buttons vertically */
+  }
+}
+
+/* Additional styles for charts and visualizations */
+h2 {
+  color: var(--primary-color);
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.chart-container {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container h2 {
+  margin-top: 0;
+}
+
+.selected-feature {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: var(--hover-bg-color);
+  border-left: 4px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.selected-feature p {
+  margin: 5px 0;
+  color: var(--text-color);
+  font-size: 1em;
+}
+
+.selected-feature strong {
+  color: var(--primary-color);
+}
+
+/* Responsive container for different charts */
+.responsive-container {
+  width: 100%;
+  height: 100%;
+}
+
+.responsive-container-smaller {
+  width: 100%;
+  height: 400px;
+}
+
+.responsive-container-wide {
+  width: 100%;
+  aspect-ratio: 3 / 1;
+}
+
+/* Confusion matrix styling */
+.confusion-matrix {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Visualization container */
+.visualization {
+  margin-top: 1px;
+}
+
+/* Grid container for charts and visualizations */
+.visualization-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 2px;
+}
+
+/* Media query for large screens */
+@media screen and (min-width: 1024px) {
+  .visualization-grid {
+    grid-template-columns: repeat(3, 1fr); /* Three columns on large screens */
+  }
+}
+
+/* Media query for medium screens */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .visualization-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on medium screens */
+  }
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 767px) {
+  .visualization-grid {
+    grid-template-columns: 1fr; /* One column on small screens */
+  }
+}
+
+/* Separator line between columns */
+.visualization-grid > * {
+  max-width: 100%; /* Establece un ancho máximo del 100% */
+}
+
+/* Remove right border for last item in each row */
+.visualization-grid > :nth-child(3n) {
+  border-right: none;
+}
+
+.notification {
+  position: fixed; /* Posición fija en la pantalla */
+  top: 20px; /* Distancia desde la parte superior */
+  right: 20px; /* Distancia desde el borde derecho */
+  background-color: #fff; /* Color de fondo */
+  border: 1px solid #ccc; /* Borde */
+  border-left: 6px solid #4caf50; /* Borde izquierdo de color verde */
+  border-radius: 4px; /* Borde redondeado */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 20px; /* Espaciado interno */
+  max-width: 300px; /* Ancho máximo */
+  opacity: 0; /* Inicialmente invisible */
+  animation: slideInRight 0.5s forwards; /* Animación de entrada */
+}
+
+/* Animación de entrada */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Estilo para el texto de la notificación */
+.notification-text {
+  font-family: Arial, sans-serif; /* Fuente */
+  color: #333; /* Color del texto */
+}
+
+/* Estilo para el botón de cierre */
+.close-button {
+  position: absolute; /* Posición absoluta */
+  top: 8px; /* Distancia desde la parte superior */
+  right: 8px; /* Distancia desde el borde derecho */
+  cursor: pointer; /* Cursor tipo puntero */
+  color: #999; /* Color del icono de cierre */
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+}

@@ -1,0 +1,103 @@
+/* Reset de Estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos Globales */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Nueva Barra de Navegación */
+nav {
+  background: linear-gradient(to right, #005385 50.25%, #6e1b15 49.75%);
+  color: white;
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between; /* Espaciado entre los elementos */
+  align-items: center; /* Centrado verticalmente */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+nav ul li a:hover {
+  background-color: #666;
+}
+
+/* Estilos para el submenú */
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 10px 0; /* Espacio entre elementos del submenú */
+}
+
+.submenu li {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li:hover .submenu {
+  display: block;
+}
+
+.Carousel {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.Carousel img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;  
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+/* Agregar estilos adicionales según tus necesidades */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
