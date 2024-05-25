@@ -22,7 +22,7 @@
     "redux": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://studios-eerblko.github.io/tu-repositorio",
+  "homepage": "https://eerblko.github.io/studios-eerblko",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
