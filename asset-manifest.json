@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/studios-eerblko/static/css/main.da5f347a.css",
+    "main.js": "/studios-eerblko/static/js/main.6812f794.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/studios-eerblko/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/anatomia.webp": "/studios-eerblko/static/media/anatomia.a3ffa696b795684a2ea1.webp",
+    "static/media/IA.png": "/studios-eerblko/static/media/IA.3898e00f941fff41bb85.png",
+    "static/media/12derivations.png": "/studios-eerblko/static/media/12derivations.433debdb51dafaf77b07.png",
+    "static/media/react.png": "/studios-eerblko/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/image2.webp": "/studios-eerblko/static/media/image2.5d493ede9d1e12fff786.webp",
+    "static/media/image1.jpg": "/studios-eerblko/static/media/image1.82736b162418dd7abfd0.jpg",
+    "static/media/comparison.png": "/studios-eerblko/static/media/comparison.f71c70aa53add581ef44.png",
+    "static/media/flask.png": "/studios-eerblko/static/media/flask.7f090c9fb67742a01b54.png",
+    "static/media/image3.webp": "/studios-eerblko/static/media/image3.a40621ca752f8886aab4.webp",
+    "static/media/LIME.png": "/studios-eerblko/static/media/LIME.1b0ef2e15f3985e8179b.png",
+    "static/media/fibrillation.png": "/studios-eerblko/static/media/fibrillation.a5a7f0eadb87690bb8d5.png",
+    "static/media/ritmi.png": "/studios-eerblko/static/media/ritmi.685952680a6ef883f4aa.png",
+    "static/media/SHAP.png": "/studios-eerblko/static/media/SHAP.b76a1b917395c652a4f8.png",
+    "static/media/EKG.png": "/studios-eerblko/static/media/EKG.de1ef0e8ec628241bd72.png",
+    "static/media/kdd3.png": "/studios-eerblko/static/media/kdd3.a9df92bfaca05d1f0436.png",
+    "static/media/kdd2.png": "/studios-eerblko/static/media/kdd2.28da390005b40704c4e9.png",
+    "static/media/nodejs.svg": "/studios-eerblko/static/media/nodejs.2a11858792e38308a7765f96bb3bcfb1.svg",
+    "static/media/python.svg": "/studios-eerblko/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "index.html": "/studios-eerblko/index.html",
+    "main.da5f347a.css.map": "/studios-eerblko/static/css/main.da5f347a.css.map",
+    "main.6812f794.js.map": "/studios-eerblko/static/js/main.6812f794.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/studios-eerblko/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da5f347a.css",
+    "static/js/main.6812f794.js"
+  ]
+}
